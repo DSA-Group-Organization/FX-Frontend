@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pharmacysystem.LandingPage">
+    <children>
+        <Label text="Welcome to Wasted Drug Store" wrapText="true">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Button fx:id="addDrugButton" mnemonicParsing="false" onAction="#handleAddDrugButtonClick" prefWidth="200.0" text="Add Drug" />
+        <Button fx:id="buyDrugButton" mnemonicParsing="false" onAction="#handleBuyDrugButtonClick" prefWidth="200.0" text="Buy Drug" />
+        <Button fx:id="addSupplierButton" mnemonicParsing="false" onAction="#handleAddSupplierButtonClick" prefWidth="200.0" text="Add Supplier" />
+        <Button fx:id="displayDrugsButton" mnemonicParsing="false" onAction="#handleDisplayDrugsButtonClick" prefWidth="200.0" text="Display Available Drugs" />
+        <Button fx:id="displaySuppliersButton" mnemonicParsing="false" onAction="#handleDisplaySuppliersButtonClick" prefWidth="200.0" text="Display Suppliers" />
+        <Button fx:id="displayReceiptButton" mnemonicParsing="false" onAction="#handleDisplayReceiptButtonClick" prefWidth="200.0" text="Display Inventory" />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>
