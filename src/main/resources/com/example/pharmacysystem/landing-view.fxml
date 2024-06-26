@@ -18,7 +18,7 @@
         <Button fx:id="addSupplierButton" mnemonicParsing="false" onAction="#handleAddSupplierButtonClick" prefWidth="200.0" text="Add Supplier" />
         <Button fx:id="displayDrugsButton" mnemonicParsing="false" onAction="#handleDisplayDrugsButtonClick" prefWidth="200.0" text="Display Available Drugs" />
         <Button fx:id="displaySuppliersButton" mnemonicParsing="false" onAction="#handleDisplaySuppliersButtonClick" prefWidth="200.0" text="Display Suppliers" />
-        <Button fx:id="displayReceiptButton" mnemonicParsing="false" onAction="#handleDisplayReceiptButtonClick" prefWidth="200.0" text="Display Inventory" />
+        <Button fx:id="displayReceiptButton" mnemonicParsing="false" onAction="#handleDisplayReceiptButtonClick" prefWidth="200.0" text="Display Receipt" />
     </children>
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
