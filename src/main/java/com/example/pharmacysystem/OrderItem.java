@@ -7,12 +7,14 @@ public class OrderItem {
     private int quantity;
     private double price;
     private double total;
+    private LocalDateTime timestamp;
 
     public OrderItem(String name, int quantity, double price, double total, LocalDateTime timestamp) {
         this.name = name;
         this.quantity = quantity;
         this.price = price;
         this.total = total;
+        this.timestamp = timestamp;
     }
 
     public String getName() {
@@ -30,5 +32,10 @@ public class OrderItem {
     public double getTotal() {
         return total;
     }
+
+    public LocalDateTime getTimestamp() {
+        return timestamp;
+    }
 }
+
 

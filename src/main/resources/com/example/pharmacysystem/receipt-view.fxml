@@ -10,11 +10,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pharmacysystem.ReceiptController">
+<BorderPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pharmacysystem.ReceiptController" stylesheets="@styles.css">
     <top>
         <HBox alignment="CENTER" BorderPane.alignment="CENTER">
             <children>
-                <Label text="Receipt">
+                <Label text="Sales Record">
                     <font>
                         <Font size="24.0" />
                     </font>

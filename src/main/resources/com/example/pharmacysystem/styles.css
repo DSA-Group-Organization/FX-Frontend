@@ -1,0 +1,10 @@
+
+.root {
+    -fx-background-image: url("https://cdn.dribbble.com/users/43762/screenshots/3027270/pw1-gif1_-_dribbble.gif");
+    -fx-background-size: cover;
+}
+
+.button {
+    -fx-background-color: green;
+    -fx-text-fill: white;
+}

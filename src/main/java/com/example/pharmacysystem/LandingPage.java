@@ -71,6 +71,7 @@ public class LandingPage {
             Parent root = loader.load();
             Stage stage = (Stage) addDrugButton.getScene().getWindow();
             stage.setScene(new Scene(root));
+            stage.setMaximized(true);
         } catch (IOException e) {
             e.printStackTrace();
         }

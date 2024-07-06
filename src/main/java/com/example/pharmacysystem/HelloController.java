@@ -35,6 +35,7 @@ public class HelloController {
             Stage stage = new Stage();
             stage.setScene(new Scene(root));
             stage.setTitle(title);
+            stage.setMaximized(true);
             stage.show();
         } catch (IOException e) {
             e.printStackTrace();

@@ -51,6 +51,7 @@ public class LoginController {
             Stage landingStage = new Stage();
             landingStage.setScene(new Scene(root));
             landingStage.setTitle("Pharmacy Management System");
+            landingStage.setMaximized(true);
             landingStage.show();
 
             // Close the current login window
