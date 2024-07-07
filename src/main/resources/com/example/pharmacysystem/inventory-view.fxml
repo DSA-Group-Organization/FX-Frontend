@@ -22,7 +22,7 @@
     <center>
         <TableView fx:id="drugTableView" prefHeight="400.0" prefWidth="600.0">
             <columns>
-                <TableColumn fx:id="nameColumn" prefWidth="150.0" text="Name" />
+                <TableColumn fx:id="nameColumn" prefWidth="150.0" text="Drug Name" />
                 <TableColumn fx:id="priceColumn" prefWidth="100.0" text="Price" />
                 <TableColumn fx:id="supplierColumn" prefWidth="150.0" text="Supplier" />
                 <TableColumn fx:id="quantityColumn" prefWidth="100.0" text="Quantity" />

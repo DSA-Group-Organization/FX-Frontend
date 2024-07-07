@@ -8,7 +8,7 @@
 
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pharmacysystem.LandingPage" stylesheets="@styles.css">
     <children>
-        <Label text="Welcome to Wasted Drug Store" wrapText="true">
+        <Label text="Welcome to Kings and Queens Pharmacy" wrapText="true">
             <font>
                 <Font size="24.0" />
             </font>
